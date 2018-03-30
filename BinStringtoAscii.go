@@ -13,7 +13,7 @@ import (
 
 
 
-func imagetostring(){
+func main(){
 	bin := decryptimage("out.png")
 	fmt.Println(bintoasc(bin))
 
